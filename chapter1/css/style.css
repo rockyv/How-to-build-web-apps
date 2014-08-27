@@ -1,0 +1,42 @@
+h1,h2,h3,h4,h5,h6,p{
+	padding:0;
+	margin:0;
+}
+body{
+	font-size:16px;
+}
+.container{
+	max-width:960px;
+}
+/*============= Header =============*/
+header{
+	height:50px;
+	padding-top:15px;
+}
+.header-text{
+	padding-top:8px;
+}
+/*============= End Header =============*/
+
+/*============= Main =============*/
+main{
+	height:200px;
+}
+.comments-list li{
+	padding-bottom:10px;
+}
+.li1{
+	background-color:#EDAAEA;
+	padding:4px 0px 4px 15px;
+	margin-bottom:5px;
+}
+.li2{
+	padding:4px 0px 4px 15px;
+	margin-bottom:5px;
+	background-color:#CAAAED;
+}
+/*============= End Main =============*/
+
+/*============= Footer =============*/
+
+/*============= End Footer =============*/
