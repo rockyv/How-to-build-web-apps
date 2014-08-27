@@ -22,18 +22,16 @@ header{
 main{
 	height:200px;
 }
-.comments-list li{
-	padding-bottom:10px;
-}
-.li1{
-	background-color:#EDAAEA;
+.comments p{
 	padding:4px 0px 4px 15px;
 	margin-bottom:5px;
+	border-radius:5px;
 }
-.li2{
-	padding:4px 0px 4px 15px;
-	margin-bottom:5px;
-	background-color:#CAAAED;
+.comments p:nth-child(even){
+	background-color:lavender;
+}
+.comments p:nth-child(odd){
+	background-color:gainsboro;
 }
 /*============= End Main =============*/
 
