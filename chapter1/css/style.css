@@ -20,7 +20,7 @@ header{
 
 /*============= Main =============*/
 main{
-	height:200px;
+	min-height:200px;
 }
 .comments p{
 	padding:4px 0px 4px 15px;
@@ -32,6 +32,9 @@ main{
 }
 .comments p:nth-child(odd){
 	background-color:gainsboro;
+}
+.comment-input button:hover{
+	cursor:pointer;
 }
 /*============= End Main =============*/
 
